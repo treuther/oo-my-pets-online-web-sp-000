@@ -76,7 +76,7 @@ end
   @cats.collect |cat|
   total_cats = cat
 end
-  "I have #{dog.size} dog(s), and #{cat.size} cat(s)."
+  "I have #{total_dogs.size} dog(s), and #{total_cats.size} cat(s)."
 end
   
 end
