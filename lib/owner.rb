@@ -37,7 +37,7 @@ def say_species
 end
 
 def buy_cat(name)
-   @cats << Cat.new(name, self)
+   Cat.new(name, self)
 end
 
 def cats
