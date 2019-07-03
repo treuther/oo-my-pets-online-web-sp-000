@@ -15,10 +15,10 @@ def initialize(name)
   @dogs = []
 end
 
-def initialize(species)
-  @species = species
-  @@all << self
-end
+# def initialize(species)
+#   @species = species
+#   @@all << self
+# end
 
 def self.all
   @@all
