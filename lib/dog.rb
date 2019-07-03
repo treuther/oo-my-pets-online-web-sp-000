@@ -15,9 +15,9 @@ class Dog
     @@all << self
   end
 
-  def initialize(name)
-    @name = name
-    @mood = "nervous"
-  end
+  # def initialize(name)
+  #   @name = name
+  #   @mood = "nervous"
+  # end
 
 end
