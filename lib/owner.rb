@@ -19,7 +19,6 @@ def initialize(name)
 def initialize(species)
   @species = species
   @@all << self
->>>>>>> 57a8ca35cea37ef0cc0143255211ccc74c82a300
 end
 
 def self.all
@@ -62,6 +61,4 @@ def walk_dogs
   end
 end
 
-=======
->>>>>>> 57a8ca35cea37ef0cc0143255211ccc74c82a300
 end
