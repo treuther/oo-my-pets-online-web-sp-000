@@ -15,11 +15,6 @@ def initialize(name, species = "human")
   @dogs = []
 end
 
-# def initialize(species)
-#   @species = species
-#   @@all << self
-# end
-
 def self.all
   @@all
 end
@@ -59,7 +54,6 @@ def dogs
 end
 
 def walk_dogs
-# dog = Dog.new("Daisy", @owner)
   @dogs.collect do |dog|
     dog.mood = "happy"
   end
@@ -68,10 +62,3 @@ end
 
 end
 
-# describe "#walk_dogs" do
-#       it "walks the dogs which makes the dogs' moods happy" do
-#         dog = Dog.new("Daisy", @owner)
-#         @owner.walk_dogs
-#         expect(dog.mood).to eq("happy")
-#       end
-#     end
