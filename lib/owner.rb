@@ -7,6 +7,7 @@ attr_reader :species, :name
 
 @@all = []
 
+<<<<<<< HEAD
 
 def initialize(name)
   @name = name
@@ -14,12 +15,18 @@ def initialize(name)
   @@all << self
   @cats = []
   @dogs = []
+=======
+def initialize(species)
+  @species = species
+  @@all << self
+>>>>>>> 57a8ca35cea37ef0cc0143255211ccc74c82a300
 end
 
 def self.all
   @@all
 end
 
+<<<<<<< HEAD
 def self.count
   @@all.size
 end
@@ -55,4 +62,6 @@ def walk_dogs
   end
 end
 
+=======
+>>>>>>> 57a8ca35cea37ef0cc0143255211ccc74c82a300
 end
