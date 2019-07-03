@@ -70,7 +70,8 @@ def sell_pets
 end
 
 def list_pets
-  
+  @dogs.collect |dog|
+  "I have #{dog.size} dog(s)."
 end
   
 end
