@@ -73,16 +73,6 @@ def list_pets
   "I have #{@dogs.size} dog(s), and #{@cats.size} cat(s)."
 end
 
-# def list_pets
-#   @dogs.collect |dog|
-#   total_dogs = dog
-# end
-#   @cats.collect |cat|
-#   total_cats = cat
-# end
-#   "I have #{total_dogs.size} dog(s), and #{total_cats.size} cat(s)."
-# end
-  
 end
 
 end
