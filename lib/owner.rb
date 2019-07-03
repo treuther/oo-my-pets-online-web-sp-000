@@ -11,8 +11,8 @@ def initialize(name, species = "human")
   @name = name
   @species = species
   @@all << self
-  # @cats = []
-  # @dogs = []
+  @cats = []
+  @dogs = []
 end
 
 # def initialize(species)
