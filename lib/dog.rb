@@ -10,6 +10,7 @@ class Dog
     @mood = "nervous"
     binding.pry
     @owner = owner
+    @owner.dogs << self
   end
   
   # def owner=(owner)
