@@ -65,7 +65,7 @@ def sell_pets
   end
   @cats.collect do |cat|
     cat.mood = "nervous"
-    cat.owner.clear
+    cat.pop(owner)
   end
 end
     
