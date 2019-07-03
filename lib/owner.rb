@@ -7,15 +7,14 @@ attr_reader :species, :name
 
 @@all = []
 
-<<<<<<< HEAD
-
 def initialize(name)
   @name = name
   @species = "human"
   @@all << self
   @cats = []
   @dogs = []
-=======
+end
+
 def initialize(species)
   @species = species
   @@all << self
@@ -25,7 +24,6 @@ def self.all
   @@all
 end
 
-<<<<<<< HEAD
 def self.count
   @@all.size
 end
