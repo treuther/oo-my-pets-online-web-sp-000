@@ -53,7 +53,7 @@ def dogs
 end
 
 def walk_dogs
-  binding.pry
+  # binding.pry
   @dogs.collect do |dog|
     dog.mood = "happy"
   end
