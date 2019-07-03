@@ -76,7 +76,7 @@ end
 end
   "I have #{dog.size} dog(s), and #{cat.size} cat(s)."
 end
-  
+end
   
 end
 
