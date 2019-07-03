@@ -70,7 +70,7 @@ def sell_pets
 end
 
 def list_pets
-  "I have #{@dogs.size}, and #{@cats.size}."
+  "I have #{@dogs.size} dog(s), and #{@cats.size} cat(s)."
 end
 
 # def list_pets
