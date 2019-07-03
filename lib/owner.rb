@@ -2,15 +2,14 @@ require "pry"
 
 class Owner
   # code goes here
-attr_accessor
+attr_accessor :dogs, :cats
 attr_reader :species, :name
 
 @@all = []
 
-
-def initialize(name)
+def initialize(name, species = "human")
   @name = name
-  @species = "human"
+  @species = species
   @@all << self
   @cats = []
   @dogs = []
@@ -33,15 +32,21 @@ def say_species
 end
 
 def buy_cat(name)
-   @cats << Cat.new(name, self)
+   Cat.new(name, self)
 end
 
 def cats
   @cats
 end
 
+def feed_cats
+  @cats.collect do |cat|
+    cat.mood = "happy"
+  end
+end
+
 def buy_dog(name)
-   @dogs << Dog.new(name, self)
+   Dog.new(name, self)
 end
 
 def dogs
@@ -49,10 +54,25 @@ def dogs
 end
 
 def walk_dogs
-  binding.pry
   @dogs.collect do |dog|
     dog.mood = "happy"
   end
+  
+def sell_pets
+  @dogs.each do |dog|
+    dog.mood = "nervous"
+    dog.owner = nil
+  end
+  @cats.each do |cat|
+    cat.mood = "nervous"
+    cat.owner = nil
+  end
+end
+
+def list_pets
+  "I have #{@dogs.size} dog(s), and #{@cats.size} cat(s)."
+end
+
 end
 
 end
