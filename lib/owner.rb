@@ -54,7 +54,7 @@ end
 
 def walk_dogs
 
-  @dogs.collect do |dog|
+  # @dogs.collect do |dog|
     dog.mood = "happy"
   end
     
