@@ -1,7 +1,6 @@
 class Cat
   # code goes here
   attr_accessor :mood
-<<<<<<< HEAD
   attr_reader :name, :owner
   
   @@all = []
@@ -21,7 +20,6 @@ class Cat
     
   end
   
-=======
   attr_reader :name
 
   def initialize(name, mood = "nervous")
@@ -29,5 +27,4 @@ class Cat
     @mood = mood
   end
 
->>>>>>> 57a8ca35cea37ef0cc0143255211ccc74c82a300
 end
