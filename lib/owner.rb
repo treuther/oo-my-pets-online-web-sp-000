@@ -61,11 +61,11 @@ def walk_dogs
 def sell_pets
   @dogs.collect do |dog|
     dog.mood = "nervous"
-    dog.self.clear
+    dog.owner.clear
   end
   @cats.collect do |cat|
     cat.mood = "nervous"
-    cat.self.clear
+    cat.owner.clear
   end
 end
     
