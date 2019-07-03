@@ -10,6 +10,7 @@ class Cat
     @name = name
     @mood = "nervous"
     @owner = owner
+    @owner = cats
   end
 
   def self.all
