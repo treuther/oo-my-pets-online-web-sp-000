@@ -45,7 +45,6 @@ def cats
 end
 
 def buy_dog(name)
-  binding.pry
    Dog.new(name, self)
 end
 
@@ -54,7 +53,6 @@ def dogs
 end
 
 def walk_dogs
-  binding.pry
 # dog = Dog.new("Daisy", @owner)
   @dogs.collect do |dog|
     dog.mood = "happy"
