@@ -11,6 +11,11 @@ class Dog
     @owner = owner
   end
   
+  def owner=(owner)
+    @owner = owner
+    @owner.dogs << self
+  end
+  
   def self.all
     @@all << self
   end
