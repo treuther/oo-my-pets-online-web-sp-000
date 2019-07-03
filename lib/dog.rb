@@ -8,13 +8,13 @@ class Dog
   def initialize(name, owner)
     @name = name
     @mood = "nervous"
+    binding.pry
     @owner = owner
   end
   
   def owner=(owner)
     @owner = owner
     @owner.dogs << self
-    binding.pry
     @owner
   end
   
