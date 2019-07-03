@@ -44,6 +44,12 @@ def cats
   @cats
 end
 
+def feed_cats
+  @cats.collect do |cat|
+    cat.mood = "happy"
+  end
+end
+
 def buy_dog(name)
    Dog.new(name, self)
 end
