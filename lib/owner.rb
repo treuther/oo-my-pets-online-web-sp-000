@@ -71,11 +71,12 @@ end
 
 def list_pets
   @dogs.collect |dog|
+  total_dogs = dog
 end
   @cats.collect |cat|
+  total_cats = cat
 end
   "I have #{dog.size} dog(s), and #{cat.size} cat(s)."
-end
 end
   
 end
