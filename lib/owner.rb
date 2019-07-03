@@ -7,7 +7,7 @@ attr_reader :species, :name
 
 @@all = []
 
-def initialize(name, species)
+def initialize(name, species = "human")
   @name = name
   @species = "human"
   @@all << self
