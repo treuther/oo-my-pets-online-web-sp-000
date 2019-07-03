@@ -68,6 +68,10 @@ def sell_pets
     cat.owner = nil
   end
 end
+
+def list_pets
+  
+end
   
 end
 
