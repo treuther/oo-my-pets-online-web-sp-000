@@ -53,7 +53,7 @@ def dogs
 end
 
 def walk_dogs
-
+dog = Dog.new("Daisy", @owner)
   # @dogs.collect do |dog|
     @dog.mood = "happy"
   # end
