@@ -61,11 +61,11 @@ def walk_dogs
 def sell_pets
   @dogs.each do |dog|
     dog.mood = "nervous"
-    
+    dog.reset_all
   end
   @cats.each do |cat|
     cat.mood = "nervous"
-    
+    cat.reset_all
   end
 end
   
