@@ -10,22 +10,10 @@ class Dog
     @mood = "nervous"
     @owner = owner
     @owner.dogs << self
-    # binding.pry
   end
-  
-  # def owner=(owner)
-  #   @owner = owner
-  #   @owner.dogs << self
-  #   @owner
-  # end
   
   def self.all
     @@all << self
   end
-
-  # def initialize(name)
-  #   @name = name
-  #   @mood = "nervous"
-  # end
 
 end
