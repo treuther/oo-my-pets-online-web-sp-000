@@ -66,7 +66,7 @@ def sell_pets
     cat.mood = "nervous"
   end
 end
-    
+  
 end
 
 end
