@@ -20,10 +20,5 @@ class Cat
   def self.count
     
   end
-  
-  # def initialize(name, mood = "nervous")
-  #   @name = name
-  #   @mood = mood
-  # end
 
 end
