@@ -45,6 +45,7 @@ def cats
 end
 
 def buy_dog(name)
+  binding.pry
    @dogs << Dog.new(name, self)
 end
 
