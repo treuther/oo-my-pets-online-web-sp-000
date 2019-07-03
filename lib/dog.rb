@@ -8,10 +8,10 @@ class Dog
   def initialize(name, owner)
     @name = name
     @mood = "nervous"
-    binding.pry
     @owner = owner
     @owner.dogs << self
   end
+  binding.pry
   
   # def owner=(owner)
   #   @owner = owner
